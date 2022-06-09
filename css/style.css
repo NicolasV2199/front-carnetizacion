@@ -1,0 +1,214 @@
+body{
+    font-family: 'Quicksand', sans-serif !important;
+}
+.encabezado{
+    width: 100%;
+    height: 150px;
+    background-color: #004A87;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.piepagina{
+    width: auto;
+    height: auto;
+    background-color: #004A87;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#imagenespie img{
+    height: 85px;
+}
+
+#imagenEscudo{
+    width: 110px;
+    margin-top: 25px;
+}
+#contacto{
+    font-size: 20px;
+    color: white;
+}
+
+h1{
+    size: 20px;
+    margin-left: 130px;
+    margin-top: 35px;
+    position: absolute;
+    color: white;
+}
+
+.panel.panel-primary{
+    width: 500px;
+    height: 380px;
+    border: #337ab7 2px solid;
+    border-radius: 10px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+#user{
+    margin-bottom: 25px !important;
+    margin-top: 35px !important;
+}
+
+.btn{
+    width: 103px;
+    height: 57px;
+    border-radius: 10px;
+    background-color: #004A87;
+    color: white;
+    border-color:#ccc;
+    font-size: 14px;
+}
+
+.form-control{
+    background-color: #E1ECFD;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.panel-heading{
+    background-color: #337ab7;
+    padding: 12px 8px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+.botonEncabezado{
+    float:right;
+    margin-top: 90px;
+    margin-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #006dc7;
+    color: white;
+    border-color: white;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.navegacion{
+    text-align: right;
+    background-color:rgb(245, 245, 245);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.informacionEs{
+    width: 70%;
+    height: 200px;
+    border: rgb(196, 194, 194) 1.5px solid;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+
+#nombre{
+    margin-left: 180px;
+    position: absolute;
+}
+
+#correo{
+    float: right;
+    margin-top: 45px;
+    margin-right: 15px;
+}
+
+#turnos{
+    width: auto;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#turnoEs{
+    width: 83%;
+    margin-bottom: 5%;
+    
+}
+
+th{
+    border: rgb(163, 163, 163) 1px solid;
+}
+td{
+    border: rgb(163, 163, 163) 1px solid;
+    text-align: center;
+}
+
+.botonTurnos{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #004a8775;
+    color: black;
+    border-color: rgba(0, 0, 0, 0.199);
+    height: 30px;
+    border-radius: 4px;
+}
+
+.botonTurnos:active{
+    background-color: #E1ECFD;
+}
+#aplazarTur{
+    border: rgb(189, 189, 189) 2px solid;
+    width: 70%;
+    height: 300px;
+    color: blue; 
+    text-align: center; 
+    margin: 30px 0 30px 200px;
+    
+}
+
+#seleccionarFecha{
+    margin-top: 100px;
+}
+
+#botones{
+    margin-right: 100px;
+}
+
+#Fecha, #Hora{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #004a8775;
+    color: black;
+    border-color: rgba(0, 0, 0, 0.199);
+    height: auto;
+    width: auto;
+    border-radius: 4px;
+}
+
+#aplazar{
+    color: #004A87;
+    margin-top: auto ;
+    text-align: center;
+    margin-left: 370px;
+}
+
+#botonSolicitar{
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 500px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #004a8775;
+    color: black;
+    border-color: rgba(0, 0, 0, 0.199);
+    height: auto;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#botonSolicitar:active{
+    background-color: #E1ECFD;
+}

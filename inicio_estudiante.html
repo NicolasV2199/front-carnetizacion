@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <div class="encabezado">
+            <h1>OFICINA DE CARNETIZACIÓN<br>UNIVERSIDAD DEL MAGDALENA</br></h1>
+            <img  alt="escudo" th:src="@{/img/Escudo unimag.png}" id="imagenEscudo">
+        </div>
+     </header>
+
+     <nav class="nav-bar">
+        <ul>
+            <li>Módulo Estudiantil</li>
+            <li>Inicio</li>
+            <li onclick="solicitar_handler">Solicitar turno</li>
+            <div class="options">
+                <p>Estudiante</p>
+                <button type="button" id="btn_logout" class="botonEncabezado" name="cerrar" onclick="logout_handler" >Cerrar sesion</button>
+            </div>
+        </ul>
+    </nav>
+
+        <div class="titulo">
+            <h1 style="color: #004A87; margin: 2rem auto;">INFORMACIÓN DE ESTUDIANTE</h1>
+        </div>
+
+        <div class="inicio">
+            <div class="informacionEs">
+                <img th:src="@{/img/usuario.png}" alt="usuario" id="imagenUsuario" style="height:100px;width:100px; margin-top: 45px; margin-left: 45px; position: absolute;">
+                <div id="nombre">
+                    <h2 style="color: black;">Nombre</h2>
+                    <h3 id="nombreEstudiante"></h3>
+                    <h2>Código</h2>
+                    <h3 id="codEstudiante"></h3>
+                </div>
+                <div id="correo">
+                    <h2>Correo</h2>
+                    <h3 id="correoEstudiante"></h3>
+                </div>
+            <div>
+        </div>
+     </div>
+
+     <div id="turnos">
+        <h3 style="text-align: left;">Mis turnos</h3>
+        <table id="turnoEs">
+            <tr style="background-color:#004a8775 ;">
+                <th>Fecha</th>
+                <th>Hora</th>
+                <th>Estado</th>
+                <th></th>
+            </tr>
+        </table>
+
+     </div>
+
+     <footer class="piepagina">
+        <center>
+            <div id="imagenespie">
+                <img th:src="@{/img/Escudo unimag.png}" alt="escudo" id="imagenEscudo">
+                <img th:src="@{/img/altacalidad.png}" alt="altacalidad" id="imagenAlta">
+                <img th:src="@{/img/escudo_colombia.png}" alt="escudo_colombia" id="imagenEscudoCol">
+                <img th:src="@{/img/sello_icontec_iqnet.png}" alt="sello_icontec" id="imagenSello">
+                <img  th:src="@{/img/AA.png}" alt="AA" id="imagenSelloAA">
+            </div>
+            <div id="contacto">
+                <h5>
+                    Información de contacto <br>
+                    Línea Gratuita Nacional: 01 8000 180 504. PBX: (57 - 5) 4381000 EXT. 3221, 3139 y 3117 <br>
+                    Dirección: Carrera 32 No 22 - 08 Santa Marta D.T.C.H. - Colombia. Código Postal No. 470004 <br>
+                    Correo electrónico: admisiones@unimagdalena.edu.co <br>
+                    La Universidad del Magdalena está sujeta a inspección y vigilancia por el Ministerio de Educación Nacional. <br>
+                    Universidad del Magdalena © 2018
+                </h5>
+            </div>
+        </center>
+    </footer>
+            <script th:src="@{/js/inicio_estudiante.js}"></script>
+            <script th:src="@{/js/jsdelivr.js}"></script>
+</body>
+</html>

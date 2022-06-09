@@ -16,10 +16,20 @@
         <div class="encabezado">
             <h1>OFICINA DE CARNETIZACIÓN<br>UNIVERSIDAD DEL MAGDALENA</br></h1>
             <img src="css/Escudo unimag.png" alt="escudo" id="imagenEscudo">
-            <button type="button" class="botonEncabezado" name="cerrar" >Cerrar sesion</button>
-            <button type="button" class="botonEncabezado" name="inicio" onclick="document.location='inicioEs.html'">Inicio</button>
         </div>
      </header>
+
+     <nav class="nav-bar">
+        <ul>
+            <li onclick="document.location='inicio_estudiante.html'">Módulo Estudiantil</li>
+            <li  onclick="document.location='inicio_estudiante.html'">Inicio</li>
+            <li onclick="solicitar_handler">Solicitar turno</li>
+            <div class="options">
+                <p>Estudiante</p>
+                <button type="button" id="btn_logout" class="botonEncabezado" name="cerrar" onclick="logout_handler" >Cerrar sesion</button>
+            </div>
+        </ul>
+    </nav>
 
 
         <div id="aplazarTur">
@@ -38,9 +48,7 @@
                     'success',
                   )">Solicitar turno</button>
             </div>
-
-
-            
+ 
         </div>
 
 
